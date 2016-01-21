@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "objectivec-utils"
   s.version          = "0.1.0"
-  s.summary          = "A short description of objectivec-utils."
+  s.summary          = "Library of Objects for Math, Finance and Algorithms"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Library of objects for Math, Finane and Algorithms.  Include Regression curves, Time value of money, and a set of collections.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/objectivec-utils"
+  s.homepage         = "https://github.com/DLDBox/objectivec-utils"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "DDevoe" => "DLDBox-github@yahoo.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/objectivec-utils.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DLDBox/objectivec-utils.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
