@@ -7,6 +7,8 @@
 //
 
 @import XCTest;
+#import "DTBiDiQue.h"
+
 
 @interface Tests : XCTestCase
 
@@ -28,7 +30,11 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSMutableArray *array = [[NSMutableArray alloc] initWithArray: @[@1,@2,@3,@4,@5,@6]];
+    DTBiDiQue *dbq = [[DTBiDiQue alloc] initWithArray:array];
+    
+    XCTAssertTrue( [dbq depth],@"Depth Error"  );
+
 }
 
 @end

@@ -7,11 +7,17 @@
 //
 
 #import "DTAppDelegate.h"
+//#import "DTBiDiQue.h"
 
 @implementation DTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //NSMutableArray *array = [[NSMutableArray alloc] initWithArray: @[@1,@2,@3,@4,@5,@6]];
+    //DTBiDiQue *dbq = [[DTBiDiQue alloc] initWithArray:array];
+    
+    //NSAssert( [dbq depth],@"Depth Error"  );
+    
     // Override point for customization after application launch.
     return YES;
 }
