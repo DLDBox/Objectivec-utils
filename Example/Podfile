@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'objectivec-utils_Example', :exclusive => true do
+  pod "objectivec-utils", :path => "../"
+end
+
+target 'objectivec-utils_Tests', :exclusive => true do
+  pod "objectivec-utils", :path => "../"
+
+  
+end
