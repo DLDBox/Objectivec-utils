@@ -1,0 +1,6 @@
+framework module Pods_objectivec_utils_Example {
+  umbrella header "Pods-objectivec-utils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

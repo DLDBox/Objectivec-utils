@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54A214095EF2006B4A67EFAD3E3DDD649CE7676D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54A214095EF2006B4A67EFAD3E3DDD649CE7676D" : 0,
+    "48E128A54641B35E25A2B1FC4CCC26DD85F397DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ADF6215D-FAF9-4503-B78A-8221CA6AE8E5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54A214095EF2006B4A67EFAD3E3DDD649CE7676D" : "objectivec-utils\/",
+    "48E128A54641B35E25A2B1FC4CCC26DD85F397DD" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objectivec-utils",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/objectivec-utils.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DLDBox\/DevoeTechUtils.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48E128A54641B35E25A2B1FC4CCC26DD85F397DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DLDBox\/objectivec-utils.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54A214095EF2006B4A67EFAD3E3DDD649CE7676D"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module objectivec_utils {
+  umbrella header "objectivec-utils-umbrella.h"
+
+  export *
+  module * { export * }
+}
