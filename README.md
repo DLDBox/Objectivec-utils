@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # objectivec-utils
 
 [![CI Status](http://img.shields.io/travis/DDevoe/objectivec-utils.svg?style=flat)](https://travis-ci.org/DDevoe/objectivec-utils)
@@ -27,3 +28,6 @@ DDevoe, DLDBox-github@yahoo.com
 ## License
 
 objectivec-utils is available under the MIT license. See the LICENSE file for more info.
+=======
+# Objectivec-utils
+>>>>>>> 794745fa61ba70902063dd6da0fd95341eda5cb6
