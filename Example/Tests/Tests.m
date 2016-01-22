@@ -8,6 +8,10 @@
 
 @import XCTest;
 #import "DTBiDiQue.h"
+#import "DTLinear.h"
+#import "DTRecipricalLine.h"
+#import "DTHyperbola.h"
+#import "DTPower.h"
 
 
 @interface Tests : XCTestCase
@@ -35,6 +39,20 @@
     
     XCTAssertTrue( [dbq depth],@"Depth Error"  );
 
+}
+
+- (void)testRegression{
+    
+    DTLinear *linear = [[DTLinear alloc] init];
+    DTRecipricalLine *rLine = [[DTRecipricalLine alloc] initWith100Doubles:linear->r];
+    DTHyperbola *hyperbola = [[DTHyperbola alloc] initWith100Doubles:linear->r];
+    DTPower *power = [[DTPower alloc] initWith100Doubles:linear->r];
+    
+    [linear test_runAll];
+    [rLine test_runAll];
+    [hyperbola test_runAll];
+    [power test_runAll];
+    
 }
 
 @end

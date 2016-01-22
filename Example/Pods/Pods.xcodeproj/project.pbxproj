@@ -7,122 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014C403D73E4B3BDFCEE9C799198B9C8 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 158CA2E1CDA48212408417080F061E55 /* SSKeychainQuery.m */; };
-		0C9347522B480BA31079B5CBD092B55C /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9E1F41BCFFB0911E270CB80AA72BB3 /* ArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		156892E4BA75F22BB13D8BD336B62448 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = AD50F3100A9F3825C3AEFA2632B4C5E2 /* TALog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19C269294476D49B41970E04BC2F9602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		21DC8000698D42733F64DCB6F1AF2273 /* objectivec-utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CD30799525E6139101F61E7234F3A7 /* objectivec-utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD120C05F4CAA7C8F9443630A4A7B99 /* TADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1CCADFBEBC71286C32C8D585CD9AB /* TADate.m */; };
+		022447C185C65B9F5819F4B1D9F16FF4 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A93B85487989BDBD6139E71F48F031 /* SSKeychainQuery.m */; };
+		02DEAD2AF92023678BB887B6829D4707 /* DTReciprocalHyperbola.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D01D42AD005C3B0CFA0EF275896761 /* DTReciprocalHyperbola.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0613AEB211F2C3B0DBAF9A4A46985083 /* DTTestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 37EA631F4D78C3270F0D2FAE46400269 /* DTTestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A7B05C9147E4EDA92B046D5D756E14 /* DTLineRLine.h in Headers */ = {isa = PBXBuildFile; fileRef = A657C92EEC6C31CBE8446C9F6045D798 /* DTLineRLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		114A8ACC1CFE0224EB7230AD335DF628 /* TADeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE9B39FC270130DE10135C88C904C /* TADeviceHardware.m */; };
+		13078C0101E9DA61D9A1F34F37B7A8C9 /* TALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E5DA64A24B2CB7E819E30ABEAAC89 /* TALog.m */; };
+		1331A4A0102D5DF1437C99B19235D119 /* DTPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EA5CEFCD78E23387A27851D7EDFBD /* DTPower.m */; };
+		1F79D5159F2E95CAEB3B03C21A405FFA /* TADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289E9466421902941BDDF7E7CB73628 /* TADate.m */; };
+		2A165044D3B997AB8B1999843C6EC440 /* objectivec-utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CD30799525E6139101F61E7234F3A7 /* objectivec-utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35ED87CE680A09F5AAF00D870DEB05CB /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47795C47D65226FC7629DED2130AD8ED /* ArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C89C81F497E5B44B23E98213B86E96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		407EDA3AD128782682314DE8ABE5C062 /* Pods-objectivec-utils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47ACF175E7F7085396D1C71586F4BC6B /* Pods-objectivec-utils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42623713EE010B7D4E90C9327D52901C /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8773DFCC05635AAC56B16BBBDFD8D8 /* TAOperationQueue.m */; };
-		46B6707AEB8FDB2858F0E3D169A41D5B /* TATimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 820A30455C95C12804D9A3C4C634ADB3 /* TATimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ABBFBFFEADFC0259EFC325013EBDE74 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9AB5F6F51BBC06B61A5FDCE1B6901D /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DC6B2D708FA66AA197EF850774F5B4F /* objectivec-utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86875900DB50B04BF4A641CED4C329A /* objectivec-utils-dummy.m */; };
-		5DFF17178535769C79009BF8957E4DD4 /* TADurationTimers.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DFA052906D81FD63ACF50AA78340C /* TADurationTimers.m */; };
+		52F9B698C1B7EF88E07BBC6B6ABB5FE9 /* TAOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1514F4A61394AE335D2765899EC081 /* TAOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		552D6262D2D174D82E6B77FD6C2B70D6 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = BACE1B8785E08ABB1F751447F0F88FDA /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A99AE867A882AE7256A9CD8E5DBE0FD /* TADeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 79775A3FED15FF754F7033A80B294647 /* TADeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E04858EF8CE9139F3C7155BE45A828D /* TAOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 039CD46293BF91B77B8C2F0D5ABD3D9A /* TAOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEB95658D2762ECEDFF02D4A6797080 /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED3049DF0EF7877519CB85559552972 /* TAGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63CB61CEAC5E4FF8D4A96E25A3FB36E0 /* TADurationTimers.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE5ACE7D09DE3B83616DB94B4638A5 /* TADurationTimers.m */; };
+		6565E39948CA6FFC90DA518F1000F0C1 /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB13B10801CDA35B46394751268FAAF /* TAOperationQueue.m */; };
+		65CD04A68BFBA1681AE0F8237592E826 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C02F1F74D2F53C7555C300A813ACC146 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673358F0AA87E791D3513367618FFF15 /* TADate.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B338CE475DE1D9F4BC0BE93DFEF769 /* TADate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6946747F87FA429B13A943B308900348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		74F9EB34AE8A9902ECC66CF0014D17D1 /* TADate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD0D17C24F8B65839AA11915094B55F /* TADate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F4BC4782CAF92C3C0429C9695FA1681 /* Pods-objectivec-utils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F03F2FF920BB389678D845C2A6D6B /* Pods-objectivec-utils_Tests-dummy.m */; };
 		80662369F22E41C7891FFEFEAF8B1754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		8067155B7BA99DC3A018B2DBF5787FF8 /* TAOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C16C150CF5D9D3C76CBE0F158F4B5D18 /* TAOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92D704DE0C37DFA380CC1B41DFB8D4F4 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E642B2EE2C3391CB0E60F5EF2FCFC994 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE50AFCCAB7CF40BBB6B635B382B96C /* TAOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E83E0C7DF457D71B510F735838E8202 /* TAOperation.m */; };
-		A55DCC23BC7088B00601B9A36B431896 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13A8A811EDB396C3F2C64793B8BC4A /* ArchiveManager.m */; };
-		ABD1F0B5086CF8BF9EC82F0D802FBE4C /* TADurationTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A313FD13D67B36BD5A4929F4020A67E /* TADurationTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6CBF3C960E239CD297F3AAD771352FA /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81862ED2B9CC338746E75935F22243 /* SSKeychain.m */; };
-		B74A15E0E5822147794708559157DFEA /* TATimers.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9294280C0C4B8E080F54C49C89BB2E /* TATimers.m */; };
-		B8A96CEBEB172234E900DD18038F80DC /* DTBiDiQue.h in Headers */ = {isa = PBXBuildFile; fileRef = C89DF9E2D37DB36A4DC96AD1508C493F /* DTBiDiQue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B973D770867A2B5593C5116371AFCCEF /* DTBiDiQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 265852377BB2F2AB144BA068DBE8A154 /* DTBiDiQue.m */; };
+		8555945B417C94A3705515FED8FA301B /* DTBiDiQue.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B6ED8D04187A443521AA9AE4FA2654 /* DTBiDiQue.m */; };
+		85E3BEE3DE1FDFD9D7D3A47759EB4022 /* DTReciprocalHyperbola.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F447D14F05229E7396EC73297C85E2 /* DTReciprocalHyperbola.m */; };
+		8EEBDD05A2431A7D43C42F0414AF1535 /* objectivec-utils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */; };
+		90FF1D01476F9D13E94215EC6B4712C2 /* TATimers.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E61BF6ACF944BABA710F83511B509E /* TATimers.m */; };
+		92EA5AD352F148D043D271F6F777C289 /* DTBiDiQue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7081BF2C5F53B7B1A2534522817DA72E /* DTBiDiQue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C8F07EEFF068F0FA4B823905BB7EC6 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = E40DDB75E7F77AB73EBDA597FD7C7F23 /* TALog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C7ADD2377AAA351ED98297F14116E2 /* TATimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CACA05E0915E0265959C020A4E844B4 /* TATimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA76710D9CF043F11F9AFCD586C6E8B /* DTRecipricalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C8986E9876E0E37D53C555007070B66C /* DTRecipricalLine.m */; };
+		B1ECC8AA9767F8FD2ED029AB4B48D7DA /* DTLineRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B053A8C07C18C77EFC550CF2913917AF /* DTLineRLine.m */; };
+		B644BA96C73F12825079B4CB6AE75AAE /* DTHyperbola.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DA26E9289372EF17DF96C52A09B575 /* DTHyperbola.m */; };
+		C2ACCDD1B4C976151051F16E7960D9D7 /* DTRegression.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0CA19F19256852715108219AC2611A /* DTRegression.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C73DDFAF30D20FB07E749594BA383130 /* Pods-objectivec-utils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A750A89AA8D29366E46D59597A70C02 /* Pods-objectivec-utils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE9B084FC3C3613113B586A5ECFAFBE3 /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F81D76DFD1EDA801F52AD05BF7D8859 /* TAGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC018B5654AB201105C3DFDFC2982B3E /* TALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7493ED272DD356C07BA99C89DB648C /* TALog.m */; };
+		CF62359258565297038E87A1B07DAED0 /* DTLinear.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC8EFD2CA8D3BD574728C2B7C8EE945 /* DTLinear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3116CFB05F7F2EDCE90AE2CAC93ECC3 /* DTRecipricalLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1C375A7098176A25B6697844A890A3 /* DTRecipricalLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72B4EC268A7E460D3D6855A9E03661F /* TADurationTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B53AA88AE25BA4A6BC3F449517967 /* TADurationTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC91C1752D898E9ADC2C9E1AC60F62E0 /* DTLinear.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3F54F142A53337DC6415F3C545CD7D /* DTLinear.m */; };
+		DF6A6C877AA11328C22FC769518A58AC /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68339F4F324A17BE942AA08350B4C6AD /* ArchiveManager.m */; };
+		E280DFD36A09386936605B524660E34E /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5474510FC16A468F54F09D84345801B /* SSKeychain.m */; };
 		E37E6B160F44E01BD9BAAE7279F09D2C /* Pods-objectivec-utils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F70329D8FBFBB3D697C9BD1A473C3F /* Pods-objectivec-utils_Example-dummy.m */; };
-		EAF020C48C5DB133BAE54FE9C82E1BFC /* TAOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639146C7DEFF258BCA598534C430E79 /* TAOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEF9E8E92232425E6125C2BD2FB280DB /* objectivec-utils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */; };
-		F33853F957735611CD4E14A21AD6D360 /* TADeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEDA2048CE82C57B79B5FB1C7757405 /* TADeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE28F21188BA890D333CEA6C40E3C10F /* TADeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E5B7F0FB12F46CEB38279516D2A58 /* TADeviceHardware.m */; };
+		E731F169F0A51ACF8E52DF821995283B /* DTRegression.m in Sources */ = {isa = PBXBuildFile; fileRef = EA15B5E3E142670024E691BB373A93AC /* DTRegression.m */; };
+		E86822EBDE0A207BDC82E09DA7820418 /* TAOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B166E4D4E9597B4C8C72DE36D4BA0618 /* TAOperation.m */; };
+		E9CBCE814955AD83E2A6811FB1FCE90F /* objectivec-utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86875900DB50B04BF4A641CED4C329A /* objectivec-utils-dummy.m */; };
+		EAFEB3A4D42A8D89A801390A5D8ACAA2 /* DTHyperbola.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC1342AF697AEA99E7615EDDC922829 /* DTHyperbola.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7794727C038E017BC4C14A57EB273D8 /* DTPower.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFF61EA7F4AF0F6501B9EE1E5DCAB41 /* DTPower.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24A87FD12DAC65843D8EE96D9C8A9411 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2BBB41B47F4EDF94033C644FC02694E8;
-			remoteInfo = "objectivec-utils-objectivec-utils";
-		};
 		AB0EA66082B6D992255A830D28737518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A97C04D23F18D150F192DEA20ADA1E6;
+			remoteGlobalIDString = 5D2CDE11F6F2D274DDAE90173CE5D4F2;
 			remoteInfo = "objectivec-utils";
 		};
 		D8EB6EF09B8C4D98B771761A070AF6DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A97C04D23F18D150F192DEA20ADA1E6;
+			remoteGlobalIDString = 5D2CDE11F6F2D274DDAE90173CE5D4F2;
 			remoteInfo = "objectivec-utils";
+		};
+		EFFCE489DEB8165C5E64C572A0BE0087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F611F5619B528A3813B9C8C6E27E0813;
+			remoteInfo = "objectivec-utils-objectivec-utils";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039CD46293BF91B77B8C2F0D5ABD3D9A /* TAOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAOperation.h; sourceTree = "<group>"; };
+		04A93B85487989BDBD6139E71F48F031 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		0A6EA5CEFCD78E23387A27851D7EDFBD /* DTPower.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTPower.m; sourceTree = "<group>"; };
 		0B15801FEB67E91409B1D72D66280A9D /* Pods-objectivec-utils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0BD0D17C24F8B65839AA11915094B55F /* TADate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADate.h; sourceTree = "<group>"; };
-		0D7493ED272DD356C07BA99C89DB648C /* TALog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TALog.m; sourceTree = "<group>"; };
 		0DF472AF9E30026141ABD4A882718A88 /* Pods_objectivec_utils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objectivec_utils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		158CA2E1CDA48212408417080F061E55 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		1289E9466421902941BDDF7E7CB73628 /* TADate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADate.m; sourceTree = "<group>"; };
 		19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objectivec-utils.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9F03F2FF920BB389678D845C2A6D6B /* Pods-objectivec-utils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-objectivec-utils_Tests-dummy.m"; sourceTree = "<group>"; };
-		265852377BB2F2AB144BA068DBE8A154 /* DTBiDiQue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBiDiQue.m; sourceTree = "<group>"; };
+		220B53AA88AE25BA4A6BC3F449517967 /* TADurationTimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADurationTimers.h; sourceTree = "<group>"; };
 		29CD30799525E6139101F61E7234F3A7 /* objectivec-utils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objectivec-utils-umbrella.h"; sourceTree = "<group>"; };
-		2DEDA2048CE82C57B79B5FB1C7757405 /* TADeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADeviceHardware.h; sourceTree = "<group>"; };
 		30D5A9C7DCD070143AED8DDC2C1F3380 /* Pods-objectivec-utils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-objectivec-utils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31BE5ACE7D09DE3B83616DB94B4638A5 /* TADurationTimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADurationTimers.m; sourceTree = "<group>"; };
 		31DAA686ADD21832A58F6FC060DC27CB /* Pods-objectivec-utils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-objectivec-utils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		33F447D14F05229E7396EC73297C85E2 /* DTReciprocalHyperbola.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTReciprocalHyperbola.m; sourceTree = "<group>"; };
+		37EA631F4D78C3270F0D2FAE46400269 /* DTTestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTTestProtocol.h; sourceTree = "<group>"; };
 		39422719C99979E80C4E188873570483 /* Pods-objectivec-utils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F81D76DFD1EDA801F52AD05BF7D8859 /* TAGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAGlobals.h; sourceTree = "<group>"; };
+		3BC8EFD2CA8D3BD574728C2B7C8EE945 /* DTLinear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLinear.h; sourceTree = "<group>"; };
+		3ED3049DF0EF7877519CB85559552972 /* TAGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAGlobals.h; sourceTree = "<group>"; };
+		47795C47D65226FC7629DED2130AD8ED /* ArchiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ArchiveManager.h; sourceTree = "<group>"; };
 		47ACF175E7F7085396D1C71586F4BC6B /* Pods-objectivec-utils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-objectivec-utils_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F9AEC86AC6C39DD4D73DC56CE9B38B0 /* Pods_objectivec_utils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objectivec_utils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D01D42AD005C3B0CFA0EF275896761 /* DTReciprocalHyperbola.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTReciprocalHyperbola.h; sourceTree = "<group>"; };
 		57E68973841390548D1539E962AA0E14 /* objectivec-utils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "objectivec-utils.modulemap"; sourceTree = "<group>"; };
+		58DA26E9289372EF17DF96C52A09B575 /* DTHyperbola.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTHyperbola.m; sourceTree = "<group>"; };
+		5DCDE9B39FC270130DE10135C88C904C /* TADeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADeviceHardware.m; sourceTree = "<group>"; };
 		5DE8FAC67D6682B9EC91B8766CEF1032 /* Pods-objectivec-utils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-objectivec-utils_Tests.modulemap"; sourceTree = "<group>"; };
-		6639146C7DEFF258BCA598534C430E79 /* TAOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAOperation.h; sourceTree = "<group>"; };
+		64B338CE475DE1D9F4BC0BE93DFEF769 /* TADate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADate.h; sourceTree = "<group>"; };
 		67CC324D40F17C6D1A8E31CB9CAC489A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68339F4F324A17BE942AA08350B4C6AD /* ArchiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
 		6A750A89AA8D29366E46D59597A70C02 /* Pods-objectivec-utils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-objectivec-utils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6CD2E99BE294C24154EDF286E4BB20BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1C375A7098176A25B6697844A890A3 /* DTRecipricalLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTRecipricalLine.h; sourceTree = "<group>"; };
 		6DA0E6B5138BA323E0A29E30D42545B9 /* Pods-objectivec-utils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-objectivec-utils_Tests-resources.sh"; sourceTree = "<group>"; };
+		6F3F54F142A53337DC6415F3C545CD7D /* DTLinear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTLinear.m; sourceTree = "<group>"; };
+		7081BF2C5F53B7B1A2534522817DA72E /* DTBiDiQue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBiDiQue.h; sourceTree = "<group>"; };
 		76440B02426CA22D34C5474919E1921D /* Pods-objectivec-utils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-objectivec-utils_Example.modulemap"; sourceTree = "<group>"; };
-		7C9AB5F6F51BBC06B61A5FDCE1B6901D /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
-		820A30455C95C12804D9A3C4C634ADB3 /* TATimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TATimers.h; sourceTree = "<group>"; };
+		79775A3FED15FF754F7033A80B294647 /* TADeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADeviceHardware.h; sourceTree = "<group>"; };
+		7FC1342AF697AEA99E7615EDDC922829 /* DTHyperbola.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTHyperbola.h; sourceTree = "<group>"; };
 		84E27166866A88592B805F86B1CB624C /* Pods-objectivec-utils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-objectivec-utils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E83E0C7DF457D71B510F735838E8202 /* TAOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAOperation.m; sourceTree = "<group>"; };
+		8C1514F4A61394AE335D2765899EC081 /* TAOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAOperationQueue.h; sourceTree = "<group>"; };
+		8CACA05E0915E0265959C020A4E844B4 /* TATimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TATimers.h; sourceTree = "<group>"; };
+		8D6E5DA64A24B2CB7E819E30ABEAAC89 /* TALog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TALog.m; sourceTree = "<group>"; };
 		966FE41A361C8E64CD6A9651FDC65D9E /* objectivec_utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objectivec_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A313FD13D67B36BD5A4929F4020A67E /* TADurationTimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADurationTimers.h; sourceTree = "<group>"; };
-		9ED1CCADFBEBC71286C32C8D585CD9AB /* TADate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADate.m; sourceTree = "<group>"; };
 		A0628FF73E8D17204C54C5AA768AAD3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5744D331054729A8DEBB6AFBD655A9D /* ResourceBundle-objectivec-utils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-objectivec-utils-Info.plist"; sourceTree = "<group>"; };
-		AD50F3100A9F3825C3AEFA2632B4C5E2 /* TALog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TALog.h; sourceTree = "<group>"; };
-		AF13A8A811EDB396C3F2C64793B8BC4A /* ArchiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
+		A657C92EEC6C31CBE8446C9F6045D798 /* DTLineRLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLineRLine.h; sourceTree = "<group>"; };
+		AEFF61EA7F4AF0F6501B9EE1E5DCAB41 /* DTPower.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTPower.h; sourceTree = "<group>"; };
+		B053A8C07C18C77EFC550CF2913917AF /* DTLineRLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTLineRLine.m; sourceTree = "<group>"; };
 		B0C73EA9125AE1E5E41BD9EEE320CABB /* objectivec-utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objectivec-utils-prefix.pch"; sourceTree = "<group>"; };
+		B0E61BF6ACF944BABA710F83511B509E /* TATimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TATimers.m; sourceTree = "<group>"; };
+		B166E4D4E9597B4C8C72DE36D4BA0618 /* TAOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAOperation.m; sourceTree = "<group>"; };
 		B7E9827D4777A7E735E5BDF2FB075750 /* Pods-objectivec-utils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-objectivec-utils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C16C150CF5D9D3C76CBE0F158F4B5D18 /* TAOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAOperationQueue.h; sourceTree = "<group>"; };
-		C89DF9E2D37DB36A4DC96AD1508C493F /* DTBiDiQue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBiDiQue.h; sourceTree = "<group>"; };
-		CE9294280C0C4B8E080F54C49C89BB2E /* TATimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TATimers.m; sourceTree = "<group>"; };
-		CF7DFA052906D81FD63ACF50AA78340C /* TADurationTimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADurationTimers.m; sourceTree = "<group>"; };
+		BACE1B8785E08ABB1F751447F0F88FDA /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		C02F1F74D2F53C7555C300A813ACC146 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		C8986E9876E0E37D53C555007070B66C /* DTRecipricalLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTRecipricalLine.m; sourceTree = "<group>"; };
 		D1C005B7A3B60E4A7BB81C8BA30312D0 /* Pods-objectivec-utils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4A73416DE2C3DB4E2347DF5652DDBF4 /* Pods-objectivec-utils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB6E5B7F0FB12F46CEB38279516D2A58 /* TADeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADeviceHardware.m; sourceTree = "<group>"; };
 		DE44D2FE4D4E4AA0A963B6DD517306D3 /* Pods-objectivec-utils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-objectivec-utils_Example-resources.sh"; sourceTree = "<group>"; };
 		E2F70329D8FBFBB3D697C9BD1A473C3F /* Pods-objectivec-utils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-objectivec-utils_Example-dummy.m"; sourceTree = "<group>"; };
-		E642B2EE2C3391CB0E60F5EF2FCFC994 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		E40DDB75E7F77AB73EBDA597FD7C7F23 /* TALog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TALog.h; sourceTree = "<group>"; };
 		E709A98A44F7937652B31432B8E5C45A /* Pods-objectivec-utils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-objectivec-utils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ED8773DFCC05635AAC56B16BBBDFD8D8 /* TAOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAOperationQueue.m; sourceTree = "<group>"; };
+		E7B6ED8D04187A443521AA9AE4FA2654 /* DTBiDiQue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBiDiQue.m; sourceTree = "<group>"; };
+		EA15B5E3E142670024E691BB373A93AC /* DTRegression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTRegression.m; sourceTree = "<group>"; };
 		EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "objectivec-utils.xcconfig"; sourceTree = "<group>"; };
-		EF81862ED2B9CC338746E75935F22243 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
-		EF9E1F41BCFFB0911E270CB80AA72BB3 /* ArchiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ArchiveManager.h; sourceTree = "<group>"; };
+		F5474510FC16A468F54F09D84345801B /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		F86875900DB50B04BF4A641CED4C329A /* objectivec-utils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "objectivec-utils-dummy.m"; sourceTree = "<group>"; };
 		FB7CD48D7BC695A2314FA21D8FA1B05A /* Pods-objectivec-utils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-objectivec-utils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FCB13B10801CDA35B46394751268FAAF /* TAOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAOperationQueue.m; sourceTree = "<group>"; };
+		FD0CA19F19256852715108219AC2611A /* DTRegression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTRegression.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,18 +164,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58DFA2DD48F6FC10211EC773005D7B0D /* Frameworks */ = {
+		618529BF8F5729B19CFBC8D6827115F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5022A97F3D5C90AE5C790050825E8CF /* Frameworks */ = {
+		6D37574E605A19D4F8463BAEF93241FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C269294476D49B41970E04BC2F9602 /* Foundation.framework in Frameworks */,
+				38C89C81F497E5B44B23E98213B86E96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,18 +198,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1A757E5299F009E45B7DA091317223D0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F888BED670B5ABCE747C40B92B4263B2 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		3BB6D69401E4BB656AD60401350983BA /* objectivec-utils */ = {
 			isa = PBXGroup;
 			children = (
-				1A757E5299F009E45B7DA091317223D0 /* Pod */,
+				5D167A4D4A4CC1BA6381C0DCAD57A867 /* Pod */,
 				B7D3552B8A1C945378F2CD8CAD393DA5 /* Support Files */,
 			);
 			name = "objectivec-utils";
@@ -192,6 +214,14 @@
 				3BB6D69401E4BB656AD60401350983BA /* objectivec-utils */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D167A4D4A4CC1BA6381C0DCAD57A867 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E97F50642FBA8861A4B498D1389A5EB7 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		6D6AAA9B36E018483CD51350B4CD122B /* Pods-objectivec-utils_Tests */ = {
@@ -284,34 +314,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F888BED670B5ABCE747C40B92B4263B2 /* Classes */ = {
+		E97F50642FBA8861A4B498D1389A5EB7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF9E1F41BCFFB0911E270CB80AA72BB3 /* ArchiveManager.h */,
-				AF13A8A811EDB396C3F2C64793B8BC4A /* ArchiveManager.m */,
-				C89DF9E2D37DB36A4DC96AD1508C493F /* DTBiDiQue.h */,
-				265852377BB2F2AB144BA068DBE8A154 /* DTBiDiQue.m */,
-				E642B2EE2C3391CB0E60F5EF2FCFC994 /* SSKeychain.h */,
-				EF81862ED2B9CC338746E75935F22243 /* SSKeychain.m */,
-				7C9AB5F6F51BBC06B61A5FDCE1B6901D /* SSKeychainQuery.h */,
-				158CA2E1CDA48212408417080F061E55 /* SSKeychainQuery.m */,
-				0BD0D17C24F8B65839AA11915094B55F /* TADate.h */,
-				9ED1CCADFBEBC71286C32C8D585CD9AB /* TADate.m */,
-				2DEDA2048CE82C57B79B5FB1C7757405 /* TADeviceHardware.h */,
-				DB6E5B7F0FB12F46CEB38279516D2A58 /* TADeviceHardware.m */,
-				9A313FD13D67B36BD5A4929F4020A67E /* TADurationTimers.h */,
-				CF7DFA052906D81FD63ACF50AA78340C /* TADurationTimers.m */,
-				3F81D76DFD1EDA801F52AD05BF7D8859 /* TAGlobals.h */,
-				AD50F3100A9F3825C3AEFA2632B4C5E2 /* TALog.h */,
-				0D7493ED272DD356C07BA99C89DB648C /* TALog.m */,
-				6639146C7DEFF258BCA598534C430E79 /* TAOperation.h */,
-				8E83E0C7DF457D71B510F735838E8202 /* TAOperation.m */,
-				C16C150CF5D9D3C76CBE0F158F4B5D18 /* TAOperationQueue.h */,
-				ED8773DFCC05635AAC56B16BBBDFD8D8 /* TAOperationQueue.m */,
-				820A30455C95C12804D9A3C4C634ADB3 /* TATimers.h */,
-				CE9294280C0C4B8E080F54C49C89BB2E /* TATimers.m */,
+				47795C47D65226FC7629DED2130AD8ED /* ArchiveManager.h */,
+				68339F4F324A17BE942AA08350B4C6AD /* ArchiveManager.m */,
+				7081BF2C5F53B7B1A2534522817DA72E /* DTBiDiQue.h */,
+				E7B6ED8D04187A443521AA9AE4FA2654 /* DTBiDiQue.m */,
+				BACE1B8785E08ABB1F751447F0F88FDA /* SSKeychain.h */,
+				F5474510FC16A468F54F09D84345801B /* SSKeychain.m */,
+				C02F1F74D2F53C7555C300A813ACC146 /* SSKeychainQuery.h */,
+				04A93B85487989BDBD6139E71F48F031 /* SSKeychainQuery.m */,
+				64B338CE475DE1D9F4BC0BE93DFEF769 /* TADate.h */,
+				1289E9466421902941BDDF7E7CB73628 /* TADate.m */,
+				79775A3FED15FF754F7033A80B294647 /* TADeviceHardware.h */,
+				5DCDE9B39FC270130DE10135C88C904C /* TADeviceHardware.m */,
+				220B53AA88AE25BA4A6BC3F449517967 /* TADurationTimers.h */,
+				31BE5ACE7D09DE3B83616DB94B4638A5 /* TADurationTimers.m */,
+				3ED3049DF0EF7877519CB85559552972 /* TAGlobals.h */,
+				E40DDB75E7F77AB73EBDA597FD7C7F23 /* TALog.h */,
+				8D6E5DA64A24B2CB7E819E30ABEAAC89 /* TALog.m */,
+				039CD46293BF91B77B8C2F0D5ABD3D9A /* TAOperation.h */,
+				B166E4D4E9597B4C8C72DE36D4BA0618 /* TAOperation.m */,
+				8C1514F4A61394AE335D2765899EC081 /* TAOperationQueue.h */,
+				FCB13B10801CDA35B46394751268FAAF /* TAOperationQueue.m */,
+				8CACA05E0915E0265959C020A4E844B4 /* TATimers.h */,
+				B0E61BF6ACF944BABA710F83511B509E /* TATimers.m */,
+				EB000BD05D5F4716EC8E57D55CD720A2 /* Regression */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		EB000BD05D5F4716EC8E57D55CD720A2 /* Regression */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1342AF697AEA99E7615EDDC922829 /* DTHyperbola.h */,
+				58DA26E9289372EF17DF96C52A09B575 /* DTHyperbola.m */,
+				3BC8EFD2CA8D3BD574728C2B7C8EE945 /* DTLinear.h */,
+				6F3F54F142A53337DC6415F3C545CD7D /* DTLinear.m */,
+				A657C92EEC6C31CBE8446C9F6045D798 /* DTLineRLine.h */,
+				B053A8C07C18C77EFC550CF2913917AF /* DTLineRLine.m */,
+				AEFF61EA7F4AF0F6501B9EE1E5DCAB41 /* DTPower.h */,
+				0A6EA5CEFCD78E23387A27851D7EDFBD /* DTPower.m */,
+				6D1C375A7098176A25B6697844A890A3 /* DTRecipricalLine.h */,
+				C8986E9876E0E37D53C555007070B66C /* DTRecipricalLine.m */,
+				56D01D42AD005C3B0CFA0EF275896761 /* DTReciprocalHyperbola.h */,
+				33F447D14F05229E7396EC73297C85E2 /* DTReciprocalHyperbola.m */,
+				FD0CA19F19256852715108219AC2611A /* DTRegression.h */,
+				EA15B5E3E142670024E691BB373A93AC /* DTRegression.m */,
+				37EA631F4D78C3270F0D2FAE46400269 /* DTTestProtocol.h */,
+			);
+			path = Regression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,23 +378,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		398617716496EB3211F6BD5DDDA9844B /* Headers */ = {
+		87D6403860898F4A85352D6744EDFDE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9347522B480BA31079B5CBD092B55C /* ArchiveManager.h in Headers */,
-				B8A96CEBEB172234E900DD18038F80DC /* DTBiDiQue.h in Headers */,
-				21DC8000698D42733F64DCB6F1AF2273 /* objectivec-utils-umbrella.h in Headers */,
-				92D704DE0C37DFA380CC1B41DFB8D4F4 /* SSKeychain.h in Headers */,
-				4ABBFBFFEADFC0259EFC325013EBDE74 /* SSKeychainQuery.h in Headers */,
-				74F9EB34AE8A9902ECC66CF0014D17D1 /* TADate.h in Headers */,
-				F33853F957735611CD4E14A21AD6D360 /* TADeviceHardware.h in Headers */,
-				ABD1F0B5086CF8BF9EC82F0D802FBE4C /* TADurationTimers.h in Headers */,
-				CE9B084FC3C3613113B586A5ECFAFBE3 /* TAGlobals.h in Headers */,
-				156892E4BA75F22BB13D8BD336B62448 /* TALog.h in Headers */,
-				EAF020C48C5DB133BAE54FE9C82E1BFC /* TAOperation.h in Headers */,
-				8067155B7BA99DC3A018B2DBF5787FF8 /* TAOperationQueue.h in Headers */,
-				46B6707AEB8FDB2858F0E3D169A41D5B /* TATimers.h in Headers */,
+				35ED87CE680A09F5AAF00D870DEB05CB /* ArchiveManager.h in Headers */,
+				92EA5AD352F148D043D271F6F777C289 /* DTBiDiQue.h in Headers */,
+				EAFEB3A4D42A8D89A801390A5D8ACAA2 /* DTHyperbola.h in Headers */,
+				CF62359258565297038E87A1B07DAED0 /* DTLinear.h in Headers */,
+				08A7B05C9147E4EDA92B046D5D756E14 /* DTLineRLine.h in Headers */,
+				F7794727C038E017BC4C14A57EB273D8 /* DTPower.h in Headers */,
+				D3116CFB05F7F2EDCE90AE2CAC93ECC3 /* DTRecipricalLine.h in Headers */,
+				02DEAD2AF92023678BB887B6829D4707 /* DTReciprocalHyperbola.h in Headers */,
+				C2ACCDD1B4C976151051F16E7960D9D7 /* DTRegression.h in Headers */,
+				0613AEB211F2C3B0DBAF9A4A46985083 /* DTTestProtocol.h in Headers */,
+				2A165044D3B997AB8B1999843C6EC440 /* objectivec-utils-umbrella.h in Headers */,
+				552D6262D2D174D82E6B77FD6C2B70D6 /* SSKeychain.h in Headers */,
+				65CD04A68BFBA1681AE0F8237592E826 /* SSKeychainQuery.h in Headers */,
+				673358F0AA87E791D3513367618FFF15 /* TADate.h in Headers */,
+				5A99AE867A882AE7256A9CD8E5DBE0FD /* TADeviceHardware.h in Headers */,
+				D72B4EC268A7E460D3D6855A9E03661F /* TADurationTimers.h in Headers */,
+				5FEB95658D2762ECEDFF02D4A6797080 /* TAGlobals.h in Headers */,
+				A3C8F07EEFF068F0FA4B823905BB7EC6 /* TALog.h in Headers */,
+				5E04858EF8CE9139F3C7155BE45A828D /* TAOperation.h in Headers */,
+				52F9B698C1B7EF88E07BBC6B6ABB5FE9 /* TAOperationQueue.h in Headers */,
+				A4C7ADD2377AAA351ED98297F14116E2 /* TATimers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,23 +417,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2BBB41B47F4EDF94033C644FC02694E8 /* objectivec-utils-objectivec-utils */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A13A55EBBE7DBA59292DCCB5E4570FEE /* Build configuration list for PBXNativeTarget "objectivec-utils-objectivec-utils" */;
-			buildPhases = (
-				9EC8F1218F5E2ECBA19933B54763FB3A /* Sources */,
-				58DFA2DD48F6FC10211EC773005D7B0D /* Frameworks */,
-				4FD261AD0DF3805FD2155118A4FB4623 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "objectivec-utils-objectivec-utils";
-			productName = "objectivec-utils-objectivec-utils";
-			productReference = 19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		59E62EDBD654A80C37C78C2950FC09BC /* Pods-objectivec-utils_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ABA9FD8B8073D90623E89A7620D96C5 /* Build configuration list for PBXNativeTarget "Pods-objectivec-utils_Tests" */;
@@ -391,19 +435,19 @@
 			productReference = 4F9AEC86AC6C39DD4D73DC56CE9B38B0 /* Pods_objectivec_utils_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A97C04D23F18D150F192DEA20ADA1E6 /* objectivec-utils */ = {
+		5D2CDE11F6F2D274DDAE90173CE5D4F2 /* objectivec-utils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 164DF40CA610DB2DDC3149E7C8E95C08 /* Build configuration list for PBXNativeTarget "objectivec-utils" */;
+			buildConfigurationList = EDC7F091B2B202A3C74E4AAE3359179D /* Build configuration list for PBXNativeTarget "objectivec-utils" */;
 			buildPhases = (
-				3987C5FE8E4EDAFC4C80E52D59386A12 /* Sources */,
-				C5022A97F3D5C90AE5C790050825E8CF /* Frameworks */,
-				13CFF317AFA0610BF1304EE90A05855B /* Resources */,
-				398617716496EB3211F6BD5DDDA9844B /* Headers */,
+				5D5A476532858919DBBD0E90197CB64C /* Sources */,
+				6D37574E605A19D4F8463BAEF93241FA /* Frameworks */,
+				6ACFCBEB7BFB08950899C8813C7D3697 /* Resources */,
+				87D6403860898F4A85352D6744EDFDE6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				054FA92BAD01AD7892EF71873B644E2C /* PBXTargetDependency */,
+				17F31C2C4F796C313A317DDCBB2C7D8B /* PBXTargetDependency */,
 			);
 			name = "objectivec-utils";
 			productName = "objectivec-utils";
@@ -428,6 +472,23 @@
 			productReference = 0DF472AF9E30026141ABD4A882718A88 /* Pods_objectivec_utils_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F611F5619B528A3813B9C8C6E27E0813 /* objectivec-utils-objectivec-utils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CC216F26956BEC903C1A996770286B /* Build configuration list for PBXNativeTarget "objectivec-utils-objectivec-utils" */;
+			buildPhases = (
+				9CAA284B9791B2260023C6766105FE42 /* Sources */,
+				618529BF8F5729B19CFBC8D6827115F8 /* Frameworks */,
+				7073DAC6554FACD1B70EF6C64DB828AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objectivec-utils-objectivec-utils";
+			productName = "objectivec-utils-objectivec-utils";
+			productReference = 19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -449,8 +510,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A97C04D23F18D150F192DEA20ADA1E6 /* objectivec-utils */,
-				2BBB41B47F4EDF94033C644FC02694E8 /* objectivec-utils-objectivec-utils */,
+				5D2CDE11F6F2D274DDAE90173CE5D4F2 /* objectivec-utils */,
+				F611F5619B528A3813B9C8C6E27E0813 /* objectivec-utils-objectivec-utils */,
 				D6CF800838A584430D4D0911FC1FA1CD /* Pods-objectivec-utils_Example */,
 				59E62EDBD654A80C37C78C2950FC09BC /* Pods-objectivec-utils_Tests */,
 			);
@@ -458,15 +519,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13CFF317AFA0610BF1304EE90A05855B /* Resources */ = {
+		6ACFCBEB7BFB08950899C8813C7D3697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF9E8E92232425E6125C2BD2FB280DB /* objectivec-utils.bundle in Resources */,
+				8EEBDD05A2431A7D43C42F0414AF1535 /* objectivec-utils.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FD261AD0DF3805FD2155118A4FB4623 /* Resources */ = {
+		7073DAC6554FACD1B70EF6C64DB828AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,22 +537,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3987C5FE8E4EDAFC4C80E52D59386A12 /* Sources */ = {
+		5D5A476532858919DBBD0E90197CB64C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55DCC23BC7088B00601B9A36B431896 /* ArchiveManager.m in Sources */,
-				B973D770867A2B5593C5116371AFCCEF /* DTBiDiQue.m in Sources */,
-				5DC6B2D708FA66AA197EF850774F5B4F /* objectivec-utils-dummy.m in Sources */,
-				B6CBF3C960E239CD297F3AAD771352FA /* SSKeychain.m in Sources */,
-				014C403D73E4B3BDFCEE9C799198B9C8 /* SSKeychainQuery.m in Sources */,
-				2CD120C05F4CAA7C8F9443630A4A7B99 /* TADate.m in Sources */,
-				FE28F21188BA890D333CEA6C40E3C10F /* TADeviceHardware.m in Sources */,
-				5DFF17178535769C79009BF8957E4DD4 /* TADurationTimers.m in Sources */,
-				DC018B5654AB201105C3DFDFC2982B3E /* TALog.m in Sources */,
-				9AE50AFCCAB7CF40BBB6B635B382B96C /* TAOperation.m in Sources */,
-				42623713EE010B7D4E90C9327D52901C /* TAOperationQueue.m in Sources */,
-				B74A15E0E5822147794708559157DFEA /* TATimers.m in Sources */,
+				DF6A6C877AA11328C22FC769518A58AC /* ArchiveManager.m in Sources */,
+				8555945B417C94A3705515FED8FA301B /* DTBiDiQue.m in Sources */,
+				B644BA96C73F12825079B4CB6AE75AAE /* DTHyperbola.m in Sources */,
+				DC91C1752D898E9ADC2C9E1AC60F62E0 /* DTLinear.m in Sources */,
+				B1ECC8AA9767F8FD2ED029AB4B48D7DA /* DTLineRLine.m in Sources */,
+				1331A4A0102D5DF1437C99B19235D119 /* DTPower.m in Sources */,
+				AEA76710D9CF043F11F9AFCD586C6E8B /* DTRecipricalLine.m in Sources */,
+				85E3BEE3DE1FDFD9D7D3A47759EB4022 /* DTReciprocalHyperbola.m in Sources */,
+				E731F169F0A51ACF8E52DF821995283B /* DTRegression.m in Sources */,
+				E9CBCE814955AD83E2A6811FB1FCE90F /* objectivec-utils-dummy.m in Sources */,
+				E280DFD36A09386936605B524660E34E /* SSKeychain.m in Sources */,
+				022447C185C65B9F5819F4B1D9F16FF4 /* SSKeychainQuery.m in Sources */,
+				1F79D5159F2E95CAEB3B03C21A405FFA /* TADate.m in Sources */,
+				114A8ACC1CFE0224EB7230AD335DF628 /* TADeviceHardware.m in Sources */,
+				63CB61CEAC5E4FF8D4A96E25A3FB36E0 /* TADurationTimers.m in Sources */,
+				13078C0101E9DA61D9A1F34F37B7A8C9 /* TALog.m in Sources */,
+				E86822EBDE0A207BDC82E09DA7820418 /* TAOperation.m in Sources */,
+				6565E39948CA6FFC90DA518F1000F0C1 /* TAOperationQueue.m in Sources */,
+				90FF1D01476F9D13E94215EC6B4712C2 /* TATimers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +571,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EC8F1218F5E2ECBA19933B54763FB3A /* Sources */ = {
+		9CAA284B9791B2260023C6766105FE42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,61 +589,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		054FA92BAD01AD7892EF71873B644E2C /* PBXTargetDependency */ = {
+		17F31C2C4F796C313A317DDCBB2C7D8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "objectivec-utils-objectivec-utils";
-			target = 2BBB41B47F4EDF94033C644FC02694E8 /* objectivec-utils-objectivec-utils */;
-			targetProxy = 24A87FD12DAC65843D8EE96D9C8A9411 /* PBXContainerItemProxy */;
+			target = F611F5619B528A3813B9C8C6E27E0813 /* objectivec-utils-objectivec-utils */;
+			targetProxy = EFFCE489DEB8165C5E64C572A0BE0087 /* PBXContainerItemProxy */;
 		};
 		4A1708CCE8B268ECCB393ECDC97FFB2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "objectivec-utils";
-			target = 8A97C04D23F18D150F192DEA20ADA1E6 /* objectivec-utils */;
+			target = 5D2CDE11F6F2D274DDAE90173CE5D4F2 /* objectivec-utils */;
 			targetProxy = AB0EA66082B6D992255A830D28737518 /* PBXContainerItemProxy */;
 		};
 		9AA299078AC51573E51CA33FE7D3EE9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "objectivec-utils";
-			target = 8A97C04D23F18D150F192DEA20ADA1E6 /* objectivec-utils */;
+			target = 5D2CDE11F6F2D274DDAE90173CE5D4F2 /* objectivec-utils */;
 			targetProxy = D8EB6EF09B8C4D98B771761A070AF6DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25EBD02E4BAC14EC70642DE5BA6A975C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1C005B7A3B60E4A7BB81C8BA30312D0 /* Pods-objectivec-utils_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Example/Pods-objectivec-utils_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_objectivec_utils_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */ = {
+		01B0525C3AAA04F1D10E2C934631B736 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,14 +640,95 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		414A72C49A87B338C3F8DC63596378C8 /* Release */ = {
+		05409AD346DF08178D9BC062186D8E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C005B7A3B60E4A7BB81C8BA30312D0 /* Pods-objectivec-utils_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Example/Pods-objectivec-utils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_objectivec_utils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1761CED185BC9CFDEC0016BC15602918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A73416DE2C3DB4E2347DF5652DDBF4 /* Pods-objectivec-utils_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Example/Pods-objectivec-utils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_objectivec_utils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51171C5694F71DA722EDF190A7737207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/objectivec-utils/ResourceBundle-objectivec-utils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "objectivec-utils";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6FE4C4949D1A7175A17E46F62D9257CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
 			buildSettings = {
@@ -641,28 +757,13 @@
 			};
 			name = Release;
 		};
-		4EF37A98FEB4070EEF3CF8F5219D64B2 /* Debug */ = {
+		756661B17CAD5D89358062AAACC59FA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/objectivec-utils/ResourceBundle-objectivec-utils-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = "objectivec-utils";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		71CBF834167A4C38D15928D820DCFC1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B15801FEB67E91409B1D72D66280A9D /* Pods-objectivec-utils_Tests.release.xcconfig */;
+			baseConfigurationReference = 39422719C99979E80C4E188873570483 /* Pods-objectivec-utils_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -671,11 +772,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Pods-objectivec-utils_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -687,57 +788,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		8AA1E0565E2F6C14185A35CD69203514 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4A73416DE2C3DB4E2347DF5652DDBF4 /* Pods-objectivec-utils_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Example/Pods-objectivec-utils_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_objectivec_utils_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
-		B5996F70E06B54724A0ABAAAE3F860F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/objectivec-utils/ResourceBundle-objectivec-utils-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = "objectivec-utils";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */ = {
+		A37822B79A6217169456B6E4E5834FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -771,14 +824,62 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E5D721E34F74B2EE9609CE5FA7E7A129 /* Debug */ = {
+		E762BF11D71BBB0B4C9FBFA215C7B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B15801FEB67E91409B1D72D66280A9D /* Pods-objectivec-utils_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Pods-objectivec-utils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_objectivec_utils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F020D74814FE00B5D17B66FFF13F5493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/objectivec-utils/ResourceBundle-objectivec-utils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "objectivec-utils";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F351A86D8A35D0D1BF37D35E74FEEA7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */;
 			buildSettings = {
@@ -807,47 +908,14 @@
 			};
 			name = Debug;
 		};
-		E60CA7A8CB12ECF86659A3A611579658 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39422719C99979E80C4E188873570483 /* Pods-objectivec-utils_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-objectivec-utils_Tests/Pods-objectivec-utils_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_objectivec_utils_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		164DF40CA610DB2DDC3149E7C8E95C08 /* Build configuration list for PBXNativeTarget "objectivec-utils" */ = {
+		14CC216F26956BEC903C1A996770286B /* Build configuration list for PBXNativeTarget "objectivec-utils-objectivec-utils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D721E34F74B2EE9609CE5FA7E7A129 /* Debug */,
-				414A72C49A87B338C3F8DC63596378C8 /* Release */,
+				51171C5694F71DA722EDF190A7737207 /* Debug */,
+				F020D74814FE00B5D17B66FFF13F5493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -855,8 +923,8 @@
 		2ABA9FD8B8073D90623E89A7620D96C5 /* Build configuration list for PBXNativeTarget "Pods-objectivec-utils_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E60CA7A8CB12ECF86659A3A611579658 /* Debug */,
-				71CBF834167A4C38D15928D820DCFC1A /* Release */,
+				756661B17CAD5D89358062AAACC59FA7 /* Debug */,
+				E762BF11D71BBB0B4C9FBFA215C7B480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -864,17 +932,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */,
-				2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A13A55EBBE7DBA59292DCCB5E4570FEE /* Build configuration list for PBXNativeTarget "objectivec-utils-objectivec-utils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EF37A98FEB4070EEF3CF8F5219D64B2 /* Debug */,
-				B5996F70E06B54724A0ABAAAE3F860F9 /* Release */,
+				A37822B79A6217169456B6E4E5834FD9 /* Debug */,
+				01B0525C3AAA04F1D10E2C934631B736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -882,8 +941,17 @@
 		E43ACCEFB318AFEC53D1DF309CD4B38F /* Build configuration list for PBXNativeTarget "Pods-objectivec-utils_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AA1E0565E2F6C14185A35CD69203514 /* Debug */,
-				25EBD02E4BAC14EC70642DE5BA6A975C /* Release */,
+				1761CED185BC9CFDEC0016BC15602918 /* Debug */,
+				05409AD346DF08178D9BC062186D8E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC7F091B2B202A3C74E4AAE3359179D /* Build configuration list for PBXNativeTarget "objectivec-utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F351A86D8A35D0D1BF37D35E74FEEA7A /* Debug */,
+				6FE4C4949D1A7175A17E46F62D9257CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

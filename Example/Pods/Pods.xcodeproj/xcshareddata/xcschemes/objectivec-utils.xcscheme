@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A97C04D23F18D150F192DEA20ADA1E6"
+               BlueprintIdentifier = "5D2CDE11F6F2D274DDAE90173CE5D4F2"
                BuildableName = "objectivec_utils.framework"
                BlueprintName = "objectivec-utils"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A97C04D23F18D150F192DEA20ADA1E6"
+            BlueprintIdentifier = "5D2CDE11F6F2D274DDAE90173CE5D4F2"
             BuildableName = "objectivec_utils.framework"
             BlueprintName = "objectivec-utils"
             ReferencedContainer = "container:Pods.xcodeproj">
