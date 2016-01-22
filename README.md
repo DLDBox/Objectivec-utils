@@ -9,7 +9,13 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Objects
+* ArchiveManager - And object for writing NSData objects to a keyed archive.
+* DTBiDiQue - A bidirectional queue
+* TATimer - Timer object which will allow the creation of unlimited number of timers
+
+## Regression Curve Fitting
+* 
 
 ## Installation
 
@@ -22,7 +28,7 @@ pod "objectivec-utils"
 
 ## Author
 
-DDevoe, DLDBox-github@yahoo.com
+Dana Devoe, DLDBox-github@yahoo.com
 
 ## License
 
