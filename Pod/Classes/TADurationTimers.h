@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TATimers.h"
+#import "DTTimers.h"
 
 /*This is a timer which will accept a list of start and stop NSDate and it handles overlaps only one
  timer active at a time

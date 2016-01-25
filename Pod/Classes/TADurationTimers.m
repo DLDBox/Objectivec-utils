@@ -8,7 +8,7 @@
 
 #import "TADurationTimers.h"
 #import "DTBiDiQue.h"
-#import "TALog.h"
+#import "DTLog.h"
 
 #define TAID NSString
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TADeviceHardware : NSObject
+@interface DTDeviceHardware : NSObject
 
 - (NSString *) platform;
 - (NSString *) platformString;

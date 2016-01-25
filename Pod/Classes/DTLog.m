@@ -6,6 +6,6 @@
 //  Copyright (c) 2015 Thinaire. All rights reserved.
 //
 
-#import "TALog.h"
+#import "DTLog.h"
 
 

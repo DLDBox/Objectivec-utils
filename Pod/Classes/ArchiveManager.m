@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Thinaire. All rights reserved.
 
 #import "ArchiveManager.h"
-#import "TALog.h"
+#import "DTLog.h"
 
 @interface ArchiveManager()
     @property(nonatomic,strong) NSKeyedArchiver* archiver;

@@ -12,7 +12,7 @@
  
  */
 
-@interface TAOperation : NSOperation
+@interface DTOperation : NSOperation
 
 - (void)doWork;
 

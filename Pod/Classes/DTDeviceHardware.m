@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Google. All rights reserved.
 //
 
-#import "TADeviceHardware.h"
+#import "DTDeviceHardware.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-@implementation TADeviceHardware
+@implementation DTDeviceHardware
 
 - (NSString *) platform{
     size_t size;

@@ -1,5 +1,5 @@
 PODS:
-  - objectivec-utils (0.1.0)
+  - objectivec-utils (0.3.0)
 
 DEPENDENCIES:
   - objectivec-utils (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  objectivec-utils: 5e7985a8de67ca50c9f0e7c47182c11774bfba42
+  objectivec-utils: 0409f4d81b063b9b97b1254c38dd497913066e9f
 
 PODFILE CHECKSUM: 5876b1d2c3505e3bc5364130ecbef2f9c38d98d7
 

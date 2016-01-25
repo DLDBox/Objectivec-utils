@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Google. All rights reserved.
 //
 
-#import "TAOperation.h"
+#import "DTOperation.h"
 
-@interface TAOperation()
+@interface DTOperation()
 {
 @protected
     
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation TAOperation
+@implementation DTOperation
 
 #pragma mark - NSOperation Overrides
 - (BOOL)isConcurrent

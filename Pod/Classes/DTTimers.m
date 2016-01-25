@@ -1,15 +1,15 @@
 //
-//  TATimers.m
-//  ThinaireController
+//  DTTimers.m
+//  
 //
 //  Created by Dana Devoe on 9/10/15.
 //  Copyright (c) 2015 Google. All rights reserved.
 //
 
-#import "TATimers.h"
+#import "DTTimers.h"
 #import "TAGlobals.h"
 
-@interface TATimers()
+@interface DTTimers()
 
 @property (nonatomic,strong) NSTimer *theRepeatTimer;
 
@@ -24,15 +24,15 @@ NSString *const kTimerKeyBlock = @"kTimerKeyBlock";
 NSString *const kTimerKeyTimerDate = @"kTimerKeyTimerValue";
 NSString *const kTimerKeyUserData = @"kTimerKeyUserData";
 
-@implementation TATimers
+@implementation DTTimers
 
 + (instancetype) sharedInstance
 {
-    static TATimers *sharedInstance;
+    static DTTimers *sharedInstance;
     static dispatch_once_t oncePredicate;
 
     dispatch_once(&oncePredicate,^(){
-        sharedInstance = [[TATimers alloc] init];
+        sharedInstance = [[DTTimers alloc] init];
     });
     
     return sharedInstance;

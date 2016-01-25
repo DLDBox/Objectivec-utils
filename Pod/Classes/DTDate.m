@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Thinaire. All rights reserved.
 //
 
-#import "TADate.h"
+#import "DTDate.h"
 
 NSDate *stringToDate(NSString *dateString)
 {
