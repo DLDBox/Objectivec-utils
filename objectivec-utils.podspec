@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "objectivec-utils"
-  s.version          = "0.4.0"
+  s.version          = "0.5.0"
   s.summary          = "Library of Objects for Math, Finance and Algorithms (work in progress)"
 
 # This description is used to generate tags and improve search results.
