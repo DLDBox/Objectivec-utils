@@ -1,18 +1,18 @@
 //
-//  TADurationTimers.m
-//  ThinaireController
+//  DTDurationTimers.m
+//  
 //
 //  Created by AtWorkUser on 10/22/15.
 //  Copyright © 2015 Google. All rights reserved.
 //
 
-#import "TADurationTimers.h"
+#import "DTDurationTimers.h"
 #import "DTBiDiQue.h"
 #import "DTLog.h"
 
 #define TAID NSString
 
-@interface TADuration : NSObject
+@interface DTDuration : NSObject
 
 @property (nonatomic,assign) NSInteger durationID;
 @property (nonatomic,assign) BOOL isEndDate;  // FALSE if this the start date
@@ -22,24 +22,24 @@
 @property (nonatomic,strong) NSString *backgroundMessage; // The message to use with the UILocalNotification
 @property (nonatomic,copy) timerBlock block;
 
-- (NSComparisonResult)compare:(TADuration *)otherObject;
+- (NSComparisonResult)compare:(DTDuration *)otherObject;
 
 @end
 
-@implementation TADuration
+@implementation DTDuration
 
-- (NSComparisonResult)compare:(TADuration *)otherObject {
+- (NSComparisonResult)compare:(DTDuration *)otherObject {
     return [otherObject.date compare:self.date];
 }
 
 @end
 
 
-@interface TADurationTimers()
+@interface DTDurationTimers()
 
 @property (nonatomic,strong) DTBiDiQue *que;
 @property (nonatomic,strong) NSTimer *currentTimer;
-@property (nonatomic,strong) TADuration *currentDuration;
+@property (nonatomic,strong) DTDuration *currentDuration;
 
 @property (nonatomic,strong) NSMutableArray *localNotifications;
 
@@ -47,15 +47,15 @@
 
 @end
 
-@implementation TADurationTimers
+@implementation DTDurationTimers
 
 + (instancetype) sharedInstance
 {
-    static TADurationTimers *sharedInstance;
+    static DTDurationTimers *sharedInstance;
     static dispatch_once_t oncePredicate;
     
     dispatch_once(&oncePredicate,^(){
-        sharedInstance = [[TADurationTimers alloc] init];
+        sharedInstance = [[DTDurationTimers alloc] init];
     });
     
     return sharedInstance;
@@ -86,8 +86,8 @@
                    withStartBlock:(timerBlock)startBlock
                      withEndBlock:(timerBlock)endBlock;
 {
-    TADuration *start = [[TADuration alloc] init];
-    TADuration *end = [[TADuration alloc] init];
+    DTDuration *start = [[DTDuration alloc] init];
+    DTDuration *end = [[DTDuration alloc] init];
     
     if ( [startDate compare:endDate] == NSOrderedDescending ) {
         timerBlock swap = startBlock;
@@ -149,7 +149,7 @@
     [self sortQue];
     DLog( @"Starting Lisnr now (%@)",[NSDate date] );
     
-    TADuration *duration = [self.que popTail];
+    DTDuration *duration = [self.que popTail];
     NSAssert( duration.isEndDate == FALSE, @"Time Sorting error" );
     
     self.endTimer = @(FALSE);
@@ -207,7 +207,7 @@
 
 - (void) startDateMethod:(NSTimer *)theTimer
 {
-    TADuration *duration = [self.que popTail];  // get the end date
+    DTDuration *duration = [self.que popTail];  // get the end date
     timerBlock block = theTimer.userInfo;
     
     NSAssert( duration , @"Time Sorting error" );
@@ -235,7 +235,7 @@
 
 - (void) endDateMethod:(NSTimer *)theTimer
 {
-    TADuration *duration = [self.que popTail];
+    DTDuration *duration = [self.que popTail];
     timerBlock block = theTimer.userInfo;
     
     if ( !block && self.globalEndBlock) {// IF there is not local block, and there is a globalblock call it
@@ -324,7 +324,7 @@
 
 - (BOOL) test_Basic
 {
-    TADurationTimers *timer = [TADurationTimers sharedInstance];
+    DTDurationTimers *timer = [DTDurationTimers sharedInstance];
     
     NSDate *in30Sec = [NSDate dateWithTimeIntervalSinceNow:30];
     NSDate *in120Sec = [NSDate dateWithTimeIntervalSinceNow:60];
@@ -350,7 +350,7 @@
 
 - (BOOL) test_Routine
 {
-    TADurationTimers *timer = [TADurationTimers sharedInstance];
+    DTDurationTimers *timer = [DTDurationTimers sharedInstance];
     
     NSDate *in10Sec = [NSDate dateWithTimeIntervalSinceNow:10];
     NSDate *in30Sec = [NSDate dateWithTimeIntervalSinceNow:30];
@@ -403,7 +403,7 @@
 
 - (BOOL) test_Advanced
 {
-    TADurationTimers *timer = [TADurationTimers sharedInstance];
+    DTDurationTimers *timer = [DTDurationTimers sharedInstance];
     
     NSDate *in10Sec = [NSDate dateWithTimeIntervalSinceNow:10];
     NSDate *in30Sec = [NSDate dateWithTimeIntervalSinceNow:30];

@@ -1,5 +1,5 @@
 //
-//  TAGlobals.h
+//  DTGlobals.h
 //  TASampleApp
 //
 //  Created by Thinaire

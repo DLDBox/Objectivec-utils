@@ -1,6 +1,6 @@
 //
-//  TADurationTimers.h
-//  ThinaireController
+//  DTDurationTimers.h
+//  
 //
 //  Created by AtWorkUser on 10/22/15.
 //  Copyright © 2015 Google. All rights reserved.
@@ -14,7 +14,7 @@
  */
 
 @class TAID;
-@interface TADurationTimers : NSObject
+@interface DTDurationTimers : NSObject
 
 @property (nonatomic,copy) NSString *channelName; // the channel that this timer is used with
 

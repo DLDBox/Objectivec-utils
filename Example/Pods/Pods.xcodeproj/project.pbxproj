@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		081ACB7861B01C78689723D639C1CB4C /* objectivec-utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CD30799525E6139101F61E7234F3A7 /* objectivec-utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12AC06F3F5FF827130134F97D0E9A17B /* TAOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B42CEA783EAFC2FABFA67BD583EFDB73 /* TAOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12AC06F3F5FF827130134F97D0E9A17B /* DTOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B42CEA783EAFC2FABFA67BD583EFDB73 /* DTOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19E0F53ED4AD5134BEC6F2BB66A40212 /* DTOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF66D66965331BE8E18F6083F311ABE /* DTOperation.m */; };
 		1C5EB28C6C453BD483007A5E6A839683 /* DTTimers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1BB0EF109FB743ED7D375518E63AD0 /* DTTimers.m */; };
 		1E2435C99785CF6682D704F135859404 /* DTOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E42ED790B2B7F59DCE46B18245B679C2 /* DTOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,33 +17,30 @@
 		38C89C81F497E5B44B23E98213B86E96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		3C7D675A61D69A09A5DC577A650C8478 /* objectivec-utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86875900DB50B04BF4A641CED4C329A /* objectivec-utils-dummy.m */; };
 		3E03D8B730F70DE3AF7394EE6D654087 /* DTBiDiQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E256D6DC3CF774716CFA48127535E /* DTBiDiQue.m */; };
-		3EB76A05737C11326CD19FFC8382AE68 /* TADurationTimers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44C6B75DCDC957500D3D0975241737 /* TADurationTimers.m */; };
+		3EB76A05737C11326CD19FFC8382AE68 /* DTDurationTimers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44C6B75DCDC957500D3D0975241737 /* DTDurationTimers.m */; };
 		407EDA3AD128782682314DE8ABE5C062 /* Pods-objectivec-utils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47ACF175E7F7085396D1C71586F4BC6B /* Pods-objectivec-utils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		461300C0FD1CAB606DA9D8EF650A1D37 /* DTRecipricalLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF7E3A0EDF52AD0BC064ACE5B2CC97C /* DTRecipricalLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		467B74766062FE05507223D79AF38D53 /* DTTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = F59D7F59EFB61662894C75A8632F7283 /* DTTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BE7EFAA84185A7DDF1C7450771B83A7 /* DTBiDiQue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA1EA2684F4DF9547B476134EC86B7F /* DTBiDiQue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56FB30D277E344E9F2C31ED65AB3BDE2 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C1194F2AD4C85093666E2CADCC4A9979 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		600DCB15C096CB2C6CA0522322D8423A /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97EC0C889A7EE502B5D6D3405B5E07 /* SSKeychainQuery.m */; };
 		603449E954425E215DD6D3128BFC2C9A /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1B836818D96755E86833C06A5A91B7 /* ArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68CD1420354DE405A88A0AC887339714 /* DTRegression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2837E6B63B1DE8181ADE0767A86B5243 /* DTRegression.m */; };
 		6946747F87FA429B13A943B308900348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		6DCA8995236CC8779F0D26B56D04127C /* DTDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAB20E6A5B33F7E4EAABFF00371821E /* DTDeviceHardware.m */; };
 		741535DC1DCD1903ADB7AB8C47CE3852 /* DTDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7BCE14DA3E524337E7CBC5ECBE4767 /* DTDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754C4B3DD43000BF8179C51B9FE2CA5F /* DTPower.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E5A5774AB6CF0A1FEBD0501CD1090 /* DTPower.m */; };
-		7AA64BB76D3F37660E418EC12A3359F0 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A11279D1295EE8B0650213EA574B853 /* SSKeychain.m */; };
 		7F4BC4782CAF92C3C0429C9695FA1681 /* Pods-objectivec-utils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F03F2FF920BB389678D845C2A6D6B /* Pods-objectivec-utils_Tests-dummy.m */; };
 		80662369F22E41C7891FFEFEAF8B1754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		8D37755BA106560481C9293B5CFEC122 /* DTHyperbola.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2FAA5B0DC7A68FFD2DE15958710AF /* DTHyperbola.m */; };
 		8EEBDD05A2431A7D43C42F0414AF1535 /* objectivec-utils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */; };
-		9121833905EE9BF393BB01CD4F2B0E9F /* TADurationTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F45D7D5AA48B95377F78AD89E5E5C8 /* TADurationTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9121833905EE9BF393BB01CD4F2B0E9F /* DTDurationTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F45D7D5AA48B95377F78AD89E5E5C8 /* DTDurationTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94A64772AE26EB5FECE2B3E6463E83A3 /* DTLineRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 758DD55AEAE2BB719760CF5A8A99B2D6 /* DTLineRLine.m */; };
 		A12F2BFC53B0D8D6D2F3B313ACFDB506 /* DTRecipricalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F34385A4749F528561D1187F2B4D /* DTRecipricalLine.m */; };
 		A35B43C142A3622181788011C5CEC2CF /* DTTestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 774870AD7345C829A91AD9C85C4D4B8A /* DTTestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A502CF1891C4F1CD51B54F66FA00BC63 /* DTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 284449E9BAA1BFA2CFD29ED4E990D680 /* DTLog.m */; };
 		A6378D85131F704092C3B684233EC3E6 /* DTLineRLine.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FB385B09D6F7DD9C4508D8C62E78B9 /* DTLineRLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACF53B7F5891517115F7C0436E3D2CC7 /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6CEC6817F28F2D9D2C948852EB5AF1 /* TAGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF53B7F5891517115F7C0436E3D2CC7 /* DTGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6CEC6817F28F2D9D2C948852EB5AF1 /* DTGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE2727E8CE70ADC909300C1E945B54EA /* DTHyperbola.h in Headers */ = {isa = PBXBuildFile; fileRef = A84AEB1FF3707030CDF5FB0141F31F35 /* DTHyperbola.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B553951B63C16171804095664402574D /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 218901C62910D101D248EFF3277A1D65 /* TAOperationQueue.m */; };
+		B553951B63C16171804095664402574D /* DTOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 218901C62910D101D248EFF3277A1D65 /* DTOperationQueue.m */; };
 		BD4C8895334B73B7646BBACFB1F3098A /* DTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F81E75C34C70015B837476FCCB3111 /* DTLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C590315FC5843E7643B9AEEFD4C1CEE3 /* DTDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494B2C1C5033D43256707EC82157887 /* DTDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C73DDFAF30D20FB07E749594BA383130 /* Pods-objectivec-utils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A750A89AA8D29366E46D59597A70C02 /* Pods-objectivec-utils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +50,6 @@
 		E37E6B160F44E01BD9BAAE7279F09D2C /* Pods-objectivec-utils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F70329D8FBFBB3D697C9BD1A473C3F /* Pods-objectivec-utils_Example-dummy.m */; };
 		EED20BDDF88AB1BC2E24F0E47D60BE62 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D9122031868BE317AD11FF5F30133 /* ArchiveManager.m */; };
 		EF59B446C21032D50BA911DEDF591F2E /* DTLinear.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D108EAB172EA23962B4A421DEACD294 /* DTLinear.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1E7F6275A704001826B24A5A57F84E4 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4044581DD40D2E617AB39A4B9FF5142C /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8AD92BBB620B907982C9EE880E784B6 /* DTReciprocalHyperbola.h in Headers */ = {isa = PBXBuildFile; fileRef = DB53E6280694A3494E53154E5198C5A1 /* DTReciprocalHyperbola.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -84,14 +80,13 @@
 /* Begin PBXFileReference section */
 		0B15801FEB67E91409B1D72D66280A9D /* Pods-objectivec-utils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0DF472AF9E30026141ABD4A882718A88 /* Pods_objectivec_utils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objectivec_utils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E97EC0C889A7EE502B5D6D3405B5E07 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
 		12DD5364292830B7CFDAF62D4F4E6A77 /* DTRegression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTRegression.h; sourceTree = "<group>"; };
 		1494B2C1C5033D43256707EC82157887 /* DTDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDeviceHardware.h; sourceTree = "<group>"; };
 		1819F34385A4749F528561D1187F2B4D /* DTRecipricalLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTRecipricalLine.m; sourceTree = "<group>"; };
 		185D9122031868BE317AD11FF5F30133 /* ArchiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
 		19248763D6034F8E9C2627E5F5960824 /* objectivec-utils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objectivec-utils.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9F03F2FF920BB389678D845C2A6D6B /* Pods-objectivec-utils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-objectivec-utils_Tests-dummy.m"; sourceTree = "<group>"; };
-		218901C62910D101D248EFF3277A1D65 /* TAOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAOperationQueue.m; sourceTree = "<group>"; };
+		218901C62910D101D248EFF3277A1D65 /* DTOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTOperationQueue.m; sourceTree = "<group>"; };
 		2837E6B63B1DE8181ADE0767A86B5243 /* DTRegression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTRegression.m; sourceTree = "<group>"; };
 		284449E9BAA1BFA2CFD29ED4E990D680 /* DTLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTLog.m; sourceTree = "<group>"; };
 		29CD30799525E6139101F61E7234F3A7 /* objectivec-utils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objectivec-utils-umbrella.h"; sourceTree = "<group>"; };
@@ -99,9 +94,7 @@
 		31DAA686ADD21832A58F6FC060DC27CB /* Pods-objectivec-utils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-objectivec-utils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		39422719C99979E80C4E188873570483 /* Pods-objectivec-utils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A11279D1295EE8B0650213EA574B853 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		3D108EAB172EA23962B4A421DEACD294 /* DTLinear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLinear.h; sourceTree = "<group>"; };
-		4044581DD40D2E617AB39A4B9FF5142C /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		47ACF175E7F7085396D1C71586F4BC6B /* Pods-objectivec-utils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-objectivec-utils_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B7BCE14DA3E524337E7CBC5ECBE4767 /* DTDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDate.h; sourceTree = "<group>"; };
 		4F9AEC86AC6C39DD4D73DC56CE9B38B0 /* Pods_objectivec_utils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objectivec_utils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,20 +116,19 @@
 		84E27166866A88592B805F86B1CB624C /* Pods-objectivec-utils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-objectivec-utils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A1B836818D96755E86833C06A5A91B7 /* ArchiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ArchiveManager.h; sourceTree = "<group>"; };
 		8C61A3A917F2DFD71C0C7AF165A09978 /* DTReciprocalHyperbola.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTReciprocalHyperbola.m; sourceTree = "<group>"; };
-		93F45D7D5AA48B95377F78AD89E5E5C8 /* TADurationTimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADurationTimers.h; sourceTree = "<group>"; };
+		93F45D7D5AA48B95377F78AD89E5E5C8 /* DTDurationTimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDurationTimers.h; sourceTree = "<group>"; };
 		966FE41A361C8E64CD6A9651FDC65D9E /* objectivec_utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objectivec_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA1EA2684F4DF9547B476134EC86B7F /* DTBiDiQue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBiDiQue.h; sourceTree = "<group>"; };
 		A0628FF73E8D17204C54C5AA768AAD3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5744D331054729A8DEBB6AFBD655A9D /* ResourceBundle-objectivec-utils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-objectivec-utils-Info.plist"; sourceTree = "<group>"; };
 		A84AEB1FF3707030CDF5FB0141F31F35 /* DTHyperbola.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTHyperbola.h; sourceTree = "<group>"; };
-		AF44C6B75DCDC957500D3D0975241737 /* TADurationTimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADurationTimers.m; sourceTree = "<group>"; };
+		AF44C6B75DCDC957500D3D0975241737 /* DTDurationTimers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDurationTimers.m; sourceTree = "<group>"; };
 		B0C73EA9125AE1E5E41BD9EEE320CABB /* objectivec-utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objectivec-utils-prefix.pch"; sourceTree = "<group>"; };
-		B42CEA783EAFC2FABFA67BD583EFDB73 /* TAOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAOperationQueue.h; sourceTree = "<group>"; };
+		B42CEA783EAFC2FABFA67BD583EFDB73 /* DTOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOperationQueue.h; sourceTree = "<group>"; };
 		B50CA352E55FA201BD0167F40161E071 /* DTPower.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTPower.h; sourceTree = "<group>"; };
 		B7E9827D4777A7E735E5BDF2FB075750 /* Pods-objectivec-utils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-objectivec-utils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7FB385B09D6F7DD9C4508D8C62E78B9 /* DTLineRLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLineRLine.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C1194F2AD4C85093666E2CADCC4A9979 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
 		C9F81E75C34C70015B837476FCCB3111 /* DTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTLog.h; sourceTree = "<group>"; };
 		D1C005B7A3B60E4A7BB81C8BA30312D0 /* Pods-objectivec-utils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4A73416DE2C3DB4E2347DF5652DDBF4 /* Pods-objectivec-utils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-objectivec-utils_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,7 +138,7 @@
 		E2F70329D8FBFBB3D697C9BD1A473C3F /* Pods-objectivec-utils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-objectivec-utils_Example-dummy.m"; sourceTree = "<group>"; };
 		E42ED790B2B7F59DCE46B18245B679C2 /* DTOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOperation.h; sourceTree = "<group>"; };
 		E709A98A44F7937652B31432B8E5C45A /* Pods-objectivec-utils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-objectivec-utils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA6CEC6817F28F2D9D2C948852EB5AF1 /* TAGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAGlobals.h; sourceTree = "<group>"; };
+		EA6CEC6817F28F2D9D2C948852EB5AF1 /* DTGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTGlobals.h; sourceTree = "<group>"; };
 		EEF7328431885EFD57098B5AFBF128C5 /* objectivec-utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "objectivec-utils.xcconfig"; sourceTree = "<group>"; };
 		F06E5A5774AB6CF0A1FEBD0501CD1090 /* DTPower.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTPower.m; sourceTree = "<group>"; };
 		F59D7F59EFB61662894C75A8632F7283 /* DTTimers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTTimers.h; sourceTree = "<group>"; };
@@ -221,19 +213,15 @@
 				DBAB20E6A5B33F7E4EAABFF00371821E /* DTDeviceHardware.m */,
 				C9F81E75C34C70015B837476FCCB3111 /* DTLog.h */,
 				284449E9BAA1BFA2CFD29ED4E990D680 /* DTLog.m */,
-				E42ED790B2B7F59DCE46B18245B679C2 /* DTOperation.h */,
-				FCF66D66965331BE8E18F6083F311ABE /* DTOperation.m */,
 				F59D7F59EFB61662894C75A8632F7283 /* DTTimers.h */,
 				5F1BB0EF109FB743ED7D375518E63AD0 /* DTTimers.m */,
-				4044581DD40D2E617AB39A4B9FF5142C /* SSKeychain.h */,
-				3A11279D1295EE8B0650213EA574B853 /* SSKeychain.m */,
-				C1194F2AD4C85093666E2CADCC4A9979 /* SSKeychainQuery.h */,
-				0E97EC0C889A7EE502B5D6D3405B5E07 /* SSKeychainQuery.m */,
-				93F45D7D5AA48B95377F78AD89E5E5C8 /* TADurationTimers.h */,
-				AF44C6B75DCDC957500D3D0975241737 /* TADurationTimers.m */,
-				EA6CEC6817F28F2D9D2C948852EB5AF1 /* TAGlobals.h */,
-				B42CEA783EAFC2FABFA67BD583EFDB73 /* TAOperationQueue.h */,
-				218901C62910D101D248EFF3277A1D65 /* TAOperationQueue.m */,
+				93F45D7D5AA48B95377F78AD89E5E5C8 /* DTDurationTimers.h */,
+				AF44C6B75DCDC957500D3D0975241737 /* DTDurationTimers.m */,
+				EA6CEC6817F28F2D9D2C948852EB5AF1 /* DTGlobals.h */,
+				E42ED790B2B7F59DCE46B18245B679C2 /* DTOperation.h */,
+				FCF66D66965331BE8E18F6083F311ABE /* DTOperation.m */,
+				B42CEA783EAFC2FABFA67BD583EFDB73 /* DTOperationQueue.h */,
+				218901C62910D101D248EFF3277A1D65 /* DTOperationQueue.m */,
 				75323A1347A3B463365A19F8C2E9BA74 /* Regression */,
 			);
 			path = Classes;
@@ -406,11 +394,9 @@
 				A35B43C142A3622181788011C5CEC2CF /* DTTestProtocol.h in Headers */,
 				467B74766062FE05507223D79AF38D53 /* DTTimers.h in Headers */,
 				081ACB7861B01C78689723D639C1CB4C /* objectivec-utils-umbrella.h in Headers */,
-				F1E7F6275A704001826B24A5A57F84E4 /* SSKeychain.h in Headers */,
-				56FB30D277E344E9F2C31ED65AB3BDE2 /* SSKeychainQuery.h in Headers */,
-				9121833905EE9BF393BB01CD4F2B0E9F /* TADurationTimers.h in Headers */,
-				ACF53B7F5891517115F7C0436E3D2CC7 /* TAGlobals.h in Headers */,
-				12AC06F3F5FF827130134F97D0E9A17B /* TAOperationQueue.h in Headers */,
+				9121833905EE9BF393BB01CD4F2B0E9F /* DTDurationTimers.h in Headers */,
+				ACF53B7F5891517115F7C0436E3D2CC7 /* DTGlobals.h in Headers */,
+				12AC06F3F5FF827130134F97D0E9A17B /* DTOperationQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,10 +542,8 @@
 				68CD1420354DE405A88A0AC887339714 /* DTRegression.m in Sources */,
 				1C5EB28C6C453BD483007A5E6A839683 /* DTTimers.m in Sources */,
 				3C7D675A61D69A09A5DC577A650C8478 /* objectivec-utils-dummy.m in Sources */,
-				7AA64BB76D3F37660E418EC12A3359F0 /* SSKeychain.m in Sources */,
-				600DCB15C096CB2C6CA0522322D8423A /* SSKeychainQuery.m in Sources */,
-				3EB76A05737C11326CD19FFC8382AE68 /* TADurationTimers.m in Sources */,
-				B553951B63C16171804095664402574D /* TAOperationQueue.m in Sources */,
+				3EB76A05737C11326CD19FFC8382AE68 /* DTDurationTimers.m in Sources */,
+				B553951B63C16171804095664402574D /* DTOperationQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

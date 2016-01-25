@@ -7,7 +7,7 @@
 //
 
 #import "DTTimers.h"
-#import "TAGlobals.h"
+#import "DTGlobals.h"
 
 @interface DTTimers()
 
