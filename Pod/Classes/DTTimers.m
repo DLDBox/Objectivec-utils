@@ -94,6 +94,7 @@ NSString *const kTimerKeyUserData = @"kTimerKeyUserData";
         
         if ( _activeRepeatTimers.count == 0 ) {
             [self killGlobalTimer];
+            _theRepeatTimer = nil;
         }
     }
 }
