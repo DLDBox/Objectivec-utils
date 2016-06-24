@@ -57,7 +57,6 @@
 
 - (BOOL)validateDate:(UITextField *)textField
 {
-   DLog( @"Date Validation not implemented yet" ) ;
    return YES;
 }
 

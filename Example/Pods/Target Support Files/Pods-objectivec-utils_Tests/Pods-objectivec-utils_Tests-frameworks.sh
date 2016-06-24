@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-objectivec-utils_Tests/Flurry_iOS_SDK.framework"
+  install_framework "Pods-objectivec-utils_Tests/UIAlertController_MZStyle.framework"
   install_framework "Pods-objectivec-utils_Tests/objectivec_utils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-objectivec-utils_Tests/Flurry_iOS_SDK.framework"
+  install_framework "Pods-objectivec-utils_Tests/UIAlertController_MZStyle.framework"
   install_framework "Pods-objectivec-utils_Tests/objectivec_utils.framework"
 fi

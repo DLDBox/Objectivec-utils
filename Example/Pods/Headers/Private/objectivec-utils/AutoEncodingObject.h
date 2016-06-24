@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/AutoEncodingObject/AutoEncodingObject.h

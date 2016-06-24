@@ -44,8 +44,6 @@ static NSString *objectStoreName = @"self";
 
 - (void) sync
 {
-    IAMHERE();
-    
     [self.archiver addObjectToArchive:self withKey:objectStoreName];
     [self.archiver saveArchiveToFile:[self classInstanceName]];
     [self.archiver close];

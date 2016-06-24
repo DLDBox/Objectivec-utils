@@ -5,6 +5,9 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+# When validating this pod use:
+# >>> pod lib lint objectivec-utils.podspec --allow-warnings
+
 
 Pod::Spec.new do |s|
   s.name             = "objectivec-utils"
@@ -39,5 +42,6 @@ Library of objects for Math, Finane and Algorithms.  Include Regression curves, 
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'UIAlertController-MZStyle', '~> 1.0.0'
-
+    s.dependency 'Flurry-iOS-SDK', '~> 7.5.2'
+    
 end

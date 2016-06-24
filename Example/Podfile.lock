@@ -1,5 +1,11 @@
 PODS:
-  - objectivec-utils (0.3.0)
+  - Flurry-iOS-SDK (7.5.2):
+    - Flurry-iOS-SDK/FlurrySDK (= 7.5.2)
+  - Flurry-iOS-SDK/FlurrySDK (7.5.2)
+  - objectivec-utils (0.7.0):
+    - Flurry-iOS-SDK (~> 7.5.2)
+    - UIAlertController-MZStyle (~> 1.0.0)
+  - UIAlertController-MZStyle (1.0.0)
 
 DEPENDENCIES:
   - objectivec-utils (from `../`)
@@ -9,8 +15,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  objectivec-utils: 0409f4d81b063b9b97b1254c38dd497913066e9f
+  Flurry-iOS-SDK: 8c87c4eab6008184ad9f63afabd79ec0d109c82e
+  objectivec-utils: 1c60ef3591d5e8a099b08827152669b226a667f3
+  UIAlertController-MZStyle: 2659de771525f994c99b8c3be506304a4b080b03
 
-PODFILE CHECKSUM: 5876b1d2c3505e3bc5364130ecbef2f9c38d98d7
-
-COCOAPODS: 1.0.0.beta.2
+COCOAPODS: 0.39.0
