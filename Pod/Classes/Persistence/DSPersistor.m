@@ -27,7 +27,8 @@ static NSString *objectStoreName = @"self";
     self = [super init];
     
     id newSelf = [self.archiver objectFromArchiveWithKey:objectStoreName];
-    if (newSelf) {
+    if (newSelf)
+    {
         self = newSelf;
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(sync) name:UIApplicationWillTerminateNotification object:nil];
@@ -37,7 +38,8 @@ static NSString *objectStoreName = @"self";
     return self ;
 }
 
-- (void) dealloc{
+- (void) dealloc
+{
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [self sync];
 }
@@ -64,7 +66,8 @@ static NSString *objectStoreName = @"self";
 }
 
 #pragma mark - lazy initializer
-- (ArchiveManager *)archiver{
+- (ArchiveManager *)archiver
+{
     if ( _archiver == nil ) {
         _archiver = [[ArchiveManager alloc] init];
         

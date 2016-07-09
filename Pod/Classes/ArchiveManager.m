@@ -44,7 +44,8 @@ static NSString* const KEY_ARCHIVE_DIRECTORY = @"com.devoetech.archivedirectory"
 
 - (void) addObjectToArchive:(id)objectToSave
 {
-    if ( !_archiver ) {
+    if ( !_archiver )
+    {
         _mutableData = [[NSMutableData data] init];
         _archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:_mutableData];
     }
@@ -53,7 +54,8 @@ static NSString* const KEY_ARCHIVE_DIRECTORY = @"com.devoetech.archivedirectory"
 
 - (void) addObjectToArchive:(id)objectToSave withKey:(NSString*)keyName
 {
-    if ( !_archiver ) {
+    if ( !_archiver )
+    {
         _mutableData = [[NSMutableData data] init];
         _archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:_mutableData];
     }

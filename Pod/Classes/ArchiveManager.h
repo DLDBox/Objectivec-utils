@@ -6,6 +6,23 @@
 //  Copyright (c) 2014 Thinaire. All rights reserved.
 
 /* This object takes NSData objects and writes it out in a keyed archive
+ 
+ Usage:
+ 
+ 
+ - (void) saveData:(NSData *)dataToSave moreData:(NSData *)moreData
+ {
+    ArchiverManager *archiver = [[ArchiveManager alloc] init];
+ 
+    NSString *path = [self.archiver dataPathWithFile:@"DataFileName"];
+ 
+    [archiver addObjectToArchive:dataToSave withKey:path];
+    [archiver addObjectToArchive:moreData withKey:path];
+ 
+    [archiver saveArchiveToFile:@"DataFileName"];
+    [archiver close];
+ }
+ 
  */
 
 #import <Foundation/Foundation.h>
