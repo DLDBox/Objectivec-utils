@@ -30,6 +30,8 @@
 #import "DTRippleViewController.h"
 #import "GLIRViewController.h"
 #import "RippleModel.h"
+#import "DSWaitForCount.h"
+#import "DTImageCacheManager.h"
 #import "DTReachability.h"
 #import "Reachability.h"
 

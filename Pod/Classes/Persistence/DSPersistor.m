@@ -41,7 +41,6 @@ static NSString *objectStoreName = @"self";
 - (void) dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    [self sync];
 }
 
 - (void) sync

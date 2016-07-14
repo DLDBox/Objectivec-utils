@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "objectivec-utils"
-  s.version          = "0.9.1"
+  s.version          = "0.9.2"
   s.summary          = "Library of Objects for Math, Finance and Algorithms (work in progress)"
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Library of objects for Math, Finane and Algorithms.  Include Regression curves, 
   s.source           = { :git => "https://github.com/DLDBox/objectivec-utils.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.1'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -42,6 +42,6 @@ Library of objects for Math, Finane and Algorithms.  Include Regression curves, 
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'UIAlertController-MZStyle', '~> 1.0.0'
-    s.dependency 'Flurry-iOS-SDK', '~> 7.5.2'
+    s.dependency 'Flurry-iOS-SDK', '~> 7.6.6'
     
 end

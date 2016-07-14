@@ -10,7 +10,11 @@
 #import "AutoEncodingObject.h"
 
 /* This object is designed to persist the contents of the object which inherits it.
- the object will create an file on disk with the same names the class of the object
+ the object will create an file on disk with the same names as the class of the child object
+ 
+ The contents are read into memory when the object is initialized
+ The contents can be written by calling [id sync];
+ 
  */
 
 typedef void (^ErrorNotification)(NSError *error);
